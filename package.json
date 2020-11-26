@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-tailwind",
+  "name": "about.isnur.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Tailwind CSS",
+  "description": "About Isnur.com",
   "version": "0.1.0",
   "author": "Isnur Muhammad Suryo Margono <isnurmsm@gmail.com>",
   "dependencies": {
@@ -29,9 +29,10 @@
     "prettier": "2.1.2"
   },
   "keywords": [
-    "gatsby"
+    "about",
+    "isnur"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -43,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isnur/gatsby-tailwind"
+    "url": "https://github.com/isnur/about.isnur.com"
   },
   "bugs": {
-    "url": "https://github.com/isnur/gatsby-tailwind/issues"
+    "url": "https://github.com/isnur/about.isnur.com"
   }
 }

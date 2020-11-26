@@ -33,6 +33,9 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
+      bodyAttributes={{
+        class: `bg-white dark:bg-gray-800 dark:text-gray-300`,
+      }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
