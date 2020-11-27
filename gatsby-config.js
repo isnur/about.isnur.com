@@ -3,6 +3,7 @@ module.exports = {
     title: `Gatsby Tailwind`,
     description: `A gatsby starter using Tailwind CSS`,
     author: `@isnur`,
+    siteUrl: `https://about.isnur.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,8 +30,10 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
