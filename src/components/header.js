@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => {
     if (isCurrent) {
       return {
         className:
-          " h-2/4 px-2 md:px-4 mr-2 rounded flex items-center bg-pink-700 text-white dark:text-gray-300",
+          "h-2/4 px-2 md:px-4 mr-2 rounded flex items-center bg-pink-700 text-white dark:text-gray-300",
       }
     }
 
@@ -65,7 +65,7 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/page-2"
             getProps={isActive}
-            className={`dark:text-gray-300 h-2/4 px-2 md:px-4 rounded flex items-center hover:bg-pink-700 hover:text-white dark:hover:text-gray-300`}
+            className={`dark:text-gray-300 h-2/4 px-2 md:px-4 mr-2 rounded flex items-center hover:bg-pink-700 hover:text-white dark:hover:text-gray-300`}
           >
             Portfolio
           </Link>

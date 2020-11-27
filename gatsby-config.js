@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind`,
-    description: `A gatsby starter using Tailwind CSS`,
+    title: `About Isnur.com`,
+    description: `About isnur.com built with gatsby starter using Tailwind CSS`,
     author: `@isnur`,
     siteUrl: `https://about.isnur.com`,
   },
