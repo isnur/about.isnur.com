@@ -46,7 +46,11 @@ const Header = ({ siteTitle }) => {
   return (
     <header className={`px-4 lg:px-0 bg-gray-50 dark:bg-gray-900 mb-4`}>
       <div className={`container mx-auto flex justify-between`}>
-        <Link to="/" className={`h-full py-4 flex items-center justify-center`}>
+        <Link
+          aria-label="Logo"
+          to="/"
+          className={`h-full py-4 flex items-center justify-center`}
+        >
           <Image name="logoImage" type="fixed" className={`mr-4`} />
           <span className={`hidden md:inline-block`}>About Isnur.com</span>
         </Link>
@@ -61,13 +65,13 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/page-2"
             getProps={isActive}
-            className={`dark:text-gray-300 h-2/4 px-2 md:px-4 mr-2 rounded flex items-center hover:bg-pink-700 hover:text-white dark:hover:text-gray-300`}
+            className={`dark:text-gray-300 h-2/4 px-2 md:px-4 rounded flex items-center hover:bg-pink-700 hover:text-white dark:hover:text-gray-300`}
           >
             Portfolio
           </Link>
           <button
             onClick={toggle}
-            className={`md:pl-2 focus:outline-none hover:text-yellow-500`}
+            className={`p-4 -mr-4 focus:outline-none hover:text-yellow-500`}
             aria-label={`theme`}
           >
             {dark ? (
