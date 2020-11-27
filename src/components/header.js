@@ -68,6 +68,7 @@ const Header = ({ siteTitle }) => {
           <button
             onClick={toggle}
             className={`md:pl-2 focus:outline-none hover:text-yellow-500`}
+            aria-label={`theme`}
           >
             {dark ? (
               <svg
